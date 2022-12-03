@@ -1,0 +1,40 @@
+/* basic css reset with universal selector */
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+h1{background-color: pink;
+text-align:center;
+margin-top: 50px;}
+
+#yellow{color: yellow;}
+.red{color: red;}
+
+#clock{text-align: center;}
+
+img{
+height: 50px;
+width: auto;
+}
+
+body{background-color: rgb(244, 191, 200);}
+
+table{margin: auto;
+background-color: yellow;}
+
+th, td{height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.sunday{background-color: rgb(74, 189, 74);
+color: black;}
+
+th{color: blue;}
+
+#clean{background-color: olive;
+color: orange;}
+
+.JS{background-color: purple;
+color: black;}

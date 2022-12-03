@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_assignment_table</title>
+    <style>
+      #till {
+        background-color: turquoise;
+        color: white;
+      }
+
+      #mustard {
+        background-color: rgb(216, 138, 35);
+        color: white;
+      }
+
+      #magenta {
+        background-color: rgb(157, 59, 237);
+        color: white;
+      }
+
+      #pink {
+        background-color: rgb(215, 18, 202);
+        color: white;
+      }
+
+      #blue {
+        background-color: rgb(41, 164, 213);
+        color: white;
+      }
+      #green {
+        background-color: rgb(100, 194, 28);
+        color: white;
+      }
+
+      table {
+        margin: auto;
+      }
+
+      tr,
+      td {
+        height: 200px;
+        width: 280px;
+        text-align: center;
+        font-size: 50px;
+        border: 5px white solid;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td id="till">A</td>
+        <td id="mustard">B</td>
+        <td id="magenta">D</td>
+      </tr>
+      <tr>
+        <td id="pink">E</td>
+        <td id="green" colspan="2" rowspan="2">C</td>
+      </tr>
+      <tr>
+        <td id="blue">F</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-02</title>
+</head>
+<style>
+    div{
+        border: 3px solid black;
+        border-radius: 15px;
+    }
+
+    #parent{
+        background-color: #5b3;
+    }
+
+    #child2, #child1{
+        height: 100px;
+        width: 100px;
+    }
+
+    #child3{
+        height: 100px;
+        width: 100px;
+    }
+
+    #child1{
+        background-color: pink;
+        margin: 10px auto; 
+
+      /*top&bottom left&right
+       margin: 10px 30px */
+      
+        /* top left&right bottom
+        margin: 10px 30px 40px */
+
+        /* top right bottom left
+        margin: 10px 20px 30px 40px */
+        
+        /* margin-top: 10px 
+        margin-bottom: 20px
+        margin-left: 30px
+        margin-right: 40px */
+    }
+
+    #child2, #child3{
+        background-color: rgb(50,120,255);
+        padding: 25px;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <div id="parent">
+        <div id="child1">Child1</div>
+        <div id="child2">Child 2</div>
+        <div div="child3">Child 3</div>
+    </div>
+    
+</body>
+</html>

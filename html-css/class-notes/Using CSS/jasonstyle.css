@@ -1,0 +1,17 @@
+/* selector */
+h1{
+    /* properties; value */
+    color:blue
+}
+
+/* ID selector (#) */
+#Title{font-size: 72px;}
+#ID1{color: purple;
+text-decoration: underline;
+text-align: center;}
+
+p{color: green;}
+
+/* Class slector(.) */
+.class1{color: black;
+text-align: center;}

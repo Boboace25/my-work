@@ -1,0 +1,91 @@
+body {
+  background-color: antiquewhite;
+}
+
+div {
+  text-align: center;
+}
+
+#header-div {
+  background-color: pink;
+}
+
+h1 {
+  color: red;
+}
+
+span {
+  color: yellow;
+}
+
+img {
+  height: 50px;
+}
+
+.main {
+  color: blue;
+  background-color: yellow;
+}
+
+table {
+  /* just to mention to center it. Will have seperate session margin */
+  margin: auto;
+}
+
+th,
+td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.sunday {
+  color: black;
+  background-color: greenyellow;
+}
+
+.live-class {
+  color: white;
+  background-color: blue;
+}
+
+#weekend {
+  color: orange;
+}
+
+.css {
+  color: black;
+  background-color: rgb(47, 255, 255);
+}
+
+.js {
+  color: black;
+  background-color: rgb(248, 47, 255);
+}
+
+#clean {
+  color: orange;
+  background-color: olive;
+}
+
+#shopping {
+  color: black;
+  background-color: rgb(255, 106, 47);
+}
+
+.group {
+  color: black;
+  background-color: rgb(161, 172, 168);
+}
+
+#workshop {
+  color: rgb(211, 57, 57);
+}
+
+#teamwork {
+  color: rgb(95, 90, 141);
+}
+
+#interview {
+  color: rgb(226, 87, 87);
+}

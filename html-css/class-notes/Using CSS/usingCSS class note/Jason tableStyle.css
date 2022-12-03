@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{background-color: palevioletred;
+text-align: center;
+margin-top: 50px;}
+
+#yellowspan{color: yellow;}
+
+.red{color: red;}
+
+#Clock{text-align: center;}
+
+img{
+    height: 50px;
+    width: auto;
+}
+
+table{margin:auto;
+background-color: yellow;}
+
+th, td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.sunday{
+    background-color: rgb(81, 163, 81);
+    color: black;
+}
+
+th{
+    color: blue;
+}
+
+#clean{color: orange;
+background-color: olive;}
+
+.js{
+    background-color: purple 
+}
+
+.Css{background-color: aqua;}
+
+.Liveclass{background-color: blue;
+color: white;}
+
+.LiveclassSat{background-color: blue;
+color: orange;}
+
+.Grayred{background-color: gray;
+color: red;}
+
+.Teamwork{background-color: gray;
+color: lavender;}
+
+.Goshopping{background-color: orange;}
+
+p{background-color: yellow;
+color:blue;
+text-align: center;}
