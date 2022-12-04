@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color table assignment</title>
+    <style>
+        table{margin:auto}
+        tr,td{text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid white;
+        height: 150px;
+        width:200px; }
+
+        #A{background-color: rgb(11, 232, 169);
+        color: white;}
+
+        #B{background-color: orange;
+        color: white;}
+
+        #D{background-color: purple;
+        color: white;}
+
+        #E{background-color: rgb(237, 6, 149);
+        color: white;}
+
+        #C{background-color: greenyellow;
+        color:white;}
+
+        #F{background-color:rgb(7, 158, 252);
+        color: white;}
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="A">A</td>
+            <td id="B">B</td>
+            <td id="D">D</td>
+        </tr>
+        <tr>
+            <td id="E">E</td>
+            <td colspan="2" rowspan="2" id="C">C</td>
+        </tr>
+        <tr>
+            <td id="F">F</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

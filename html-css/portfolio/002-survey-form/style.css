@@ -1,0 +1,45 @@
+*{
+     margin: 0;
+     padding 0;
+     box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    color: white;
+}
+
+body{
+    background-image: url(./background\ image.jpg);
+}
+
+#form-container{
+    margin: 30px;
+    background-color: rgba(77, 45, 45, 0.3);
+}
+
+#form-header{
+    text-align: center;
+}
+
+#form-title{font-family: 'Bowlby One SC', cursive;
+font-size: 3rem;
+letter-spacing: 5px;}
+
+#form-description{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 15px;
+}
+
+#survey-form-container{
+    max-width: 500px;
+    background-color: rgb(26, 25, 25);
+    font-size: 2rem;
+    margin: 15px auto;
+    padding: 30px;
+}
+
+input, textarea, select{font-size: 1.2rem;
+}
+
+.input-label{}
