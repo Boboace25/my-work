@@ -1,0 +1,82 @@
+*{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width:100%;
+}
+
+.header-left{
+    float: left;
+    margin: auto;
+}
+
+.header-right{
+    float: right;
+    margin: auto;
+}
+
+.header-left,
+.header-right,
+ul,li,a,button{
+    display: inline-block;
+    list-style-type:none;
+    text-decoration:none;
+    padding: 0px 10px;
+    color: black;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#sign-in {
+    color: white;
+    background-color: rgb(66,133,244);
+    padding: 6px;
+    border: none;
+}
+
+#microphone{
+    width: 20px;
+}
+
+#Google{
+    clear: both;
+    display: block;
+    margin: auto;
+    padding-top: 200px;
+}
+#search{
+width: 400px;
+height: 40px;
+border: 2px solid #d3d3d3;
+border-radius: 20px;
+margin: 20px auto;
+}
+
+#magglass{
+   margin: 7px 0px 0px 8px;
+}
+
+#microphone{
+    margin: 3px 8px;
+}
+ #searchtext{
+    display: inline-block;
+    width: 75%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    } 
+
+    #button{
+        width: 100vw;
+    }
+.google-search{
+    display: inline-block;
+    margin: 20px auto;
+}

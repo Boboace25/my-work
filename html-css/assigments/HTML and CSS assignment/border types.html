@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border types</title>
+    <style>
+        #grid{
+            height: 800px;
+        background-image: linear-gradient(to right, rgb(19, 153, 202), rgb(95, 8, 8));
+        }
+
+        *{margin:auto;
+        padding:100px 100px 10px 100px;}
+
+        #table{text-align: center;
+        font-size: 30px;
+    font-weight: bold;}
+        
+
+        #dotted{border: dotted 4px white;}
+
+        #dashed{border: dashed 4px white;}
+
+        #solid{border: solid 4px white;}
+
+        #double{border: double 4px white;}
+
+        #groove{border: groove 4px white;}
+
+        #ridge{border: ridge 4px white;}
+
+        #inset{border: inset 4px white;}
+
+        #outset{border: outset 4px white;}
+
+        #circle{border: solid 4px white;
+                border-radius: 50%;
+                width: 100px;
+                 height: 100px;}
+    </style>
+</head>
+<body>
+    <div id="grid">
+    <table id="table">
+        <tr>
+            <td>none</td>
+            <td id="dotted">dotted</td>
+            <td id="dashed">dashed</td>
+        </tr>
+        <tr>
+            <td id="solid">solid</td>
+            <td id="double">double</td>
+            <td id="groove">groove</td>
+        </tr>
+        <tr>
+            <td id="ridge">ridge</td>
+            <td id="inset">inset</td>
+            <td id="outset">outset</td>
+            <td id="circle">Circle</td>
+        </tr>
+    </table>
+    </div>
+    
+</body>
+</html>

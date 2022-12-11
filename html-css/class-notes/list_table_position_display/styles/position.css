@@ -1,0 +1,50 @@
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+}
+
+#box1{
+    position: static;
+    top: 100px;
+    left: 50px;
+}
+
+#box2{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+#box3{
+    height: 30px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+#container{background-color: yellow;
+display: inline-block;
+width: 50%;
+height: 300px;
+position: relative;}
+
+#box4{
+    position: absolute;
+    bottom: 400px;
+    left: 200px;
+    
+}
+
+footer{
+    background-color: gray;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
