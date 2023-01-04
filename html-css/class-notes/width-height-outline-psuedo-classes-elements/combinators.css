@@ -1,0 +1,29 @@
+/* section p{
+    background-color: brown;
+    color: white;
+    padding: 1rem;} 
+/* Desendant selector ^ */
+
+/* section > p{
+    background-color: brown;
+    color: white;
+    padding: 1rem;} */
+/* Child selector ^*/
+
+/* #section2 h2+p{
+    background-color: green;
+    padding: 1rem;
+    color: white;}
+/* Adjacent sibling selector  */
+ 
+/* #section2 h2 ~ p{
+    background-color: green;
+    padding: 1rem;
+    color: white;}
+/* General sibling selector  */
+
+#section1>p, #section2 h2+p{
+    background-color: blue;
+    color: white;
+}
+/* line 13, and line 24 */

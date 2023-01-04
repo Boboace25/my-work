@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 100px;
+            border: 2px solid red;
+            margin-bottom: 100px;
+        }
+
+        #box1{overflow: visible;}
+
+        #box2{overflow: hidden;}
+
+        #box3{overflow: scroll;}
+
+        #box4{overflow: auto;
+        height: 100px;}
+
+        #box5{overflow-y: scroll;
+        overflow-x: hidden;}
+    </style>
+</head>
+<body>
+    
+<!-- .box#box-$*5 -->
+    <div class="box" id="box1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, adipisci ab! Quaerat vero dignissimos atque ipsam facilis, laudantium facere suscipit odio. Voluptatem dolorum explicabo voluptas inventore quis voluptatibus accusantium laudantium!</div>
+    <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse eveniet illo expedita iste aperiam dicta odio nostrum assumenda consequatur. Blanditiis at eum reiciendis rerum et distinctio cum excepturi quisquam?</div>
+    <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex rem facere possimus rerum, quod omnis placeat tempore quis sunt unde. Eaque quaerat velit voluptate error deleniti tenetur! Non, eius.</div>
+    <div class="box" id="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consequatur perspiciatis omnis animi corrupti quos iure saepe recusandae, odio eligendi reiciendis voluptas. Voluptate quibusdam eaque cumque, nihil nemo ad sapiente?</div>
+    <div class="box" id="box5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo, magni sequi, accusantium est beatae dicta vel possimus soluta vitae perferendis fugit numquam. Nihil reprehenderit beatae autem obcaecati vel repellat?</div>
+</body>
+</html>

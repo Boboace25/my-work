@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+
+
+head{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: plum;
+    font-size: 36px;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 26px;
+}
+
+aside{
+    height: 300px;
+    background-color: greenyellow;
+    width: 25%;
+    float: left;
+    color: white;
+    font-size: 26px;
+}
+
+main{
+    height: 300px;
+    width: 75%;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 26px;
+    float: right;
+}
+
+footer{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    clear: both;
+}
